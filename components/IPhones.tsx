@@ -27,10 +27,9 @@ function GenCard({ headerClass, badge, badgeType, imgSrc, imgFallback, imgAlt, t
       <div className={`gen-header ${headerClass}`}>
         <div className={`gen-badge ${badgeType}`}>{badge}</div>
         <img
-          className="gen-phone-img"
+          className="gen-phone-img w-full h-[180px] object-contain"
           src={imgSrc}
           alt={imgAlt}
-          className="w-full h-[180px] object-contain"
           onError={(e) => {
             ;(e.target as HTMLImageElement).src = imgFallback
           }}

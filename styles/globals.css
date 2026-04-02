@@ -115,7 +115,7 @@ section{padding:90px 24px}
 .gen-badge.new{background:rgba(37,99,235,.35);color:#93C5FD;border:1px solid rgba(37,99,235,.4)}
 .gen-badge.pop{background:rgba(99,102,241,.3);color:#A5B4FC;border:1px solid rgba(99,102,241,.4)}
 .gen-badge.val{background:rgba(16,185,129,.2);color:#6EE7B7;border:1px solid rgba(16,185,129,.3)}
-.gen-phone-img{width:150px;height:220px;object-fit:contain;filter:drop-shadow(0 12px 32px rgba(0,0,0,.5));transition:transform .3s}
+.gen-phone-img{width:270px;height:220px;object-fit:contain;filter:drop-shadow(0 12px 32px rgba(0,0,0,.5));transition:transform .3s}
 .gen-card:hover .gen-phone-img{transform:translateY(-6px) scale(1.03)}
 .gen-title{font-size:20px;font-weight:800;color:#fff;letter-spacing:-.3px}
 .gen-body{padding:22px;flex:1;display:flex;flex-direction:column;gap:14px}

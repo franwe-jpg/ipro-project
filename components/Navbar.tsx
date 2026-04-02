@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav>
       <div className="nav-inner">
         <a href="#" className="nav-logo">
-          <Logo bgColor="#0D1B3E" />
+          <Logo />
         </a>
         <div
           className="nav-links"
